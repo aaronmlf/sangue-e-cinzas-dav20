@@ -1,0 +1,74 @@
+EDIÇÃO DE CÓDIGO-FONTE PÚBLICO
+Os livros não acompanham esta edição. Consulte README.md para preparar
+sua biblioteca local antes de usar a pesquisa ou a ficha oficial.
+
+SANGUE & CINZAS — VAMPIRO: IDADE DAS TREVAS V20
+Versão 1.0.0 • Windows x64 • Portátil e offline
+
+COMO ABRIR
+1. Extraia TODO o ZIP para uma pasta onde você possa gravar arquivos.
+2. Abra Sangue-e-Cinzas.exe. Não precisa instalar Python, Node ou Electron.
+3. Mantenha as pastas resources, locales e dados junto do executável.
+   Não execute diretamente de dentro do ZIP.
+
+SUA PRIMEIRA FICHA
+Escolha Identidade e clã. Distribua Atributos (7/5/3), Habilidades
+(13/9/5), Disciplinas (4), Antecedentes (5) e Virtudes (7).
+Em Criação e evolução, confira os avisos e conclua a distribuição
+inicial. Essa base é guardada separadamente das compras com os 15
+pontos de bônus. Depois, comece a crônica para comprar aumentos com XP.
+Os valores podem ser digitados; os círculos são atalhos. Avisos das
+regras não apagam características acima dos limites da mesa.
+
+O QUE O PROGRAMA FAZ
+• Vários personagens, retrato, clãs/linhagens, Caminhos e especialidades.
+• Disciplinas, Antecedentes, Qualidades, Defeitos, trilhas e rituais.
+• Auditoria de criação, bônus, concessões e compras com experiência.
+• Geração, sangue, vontade, vitalidade, cura, armadura e iniciativa.
+• Dados D10, dificuldade, especialidade, vontade e registro de rolagens.
+• Modificadores positivos/negativos grandes e efeitos de cena/turnos.
+• Equipamentos, diário e 30 alterações para desfazer/refazer.
+• Pesquisa nos livros depois de configurar seu próprio acervo local.
+• PDF completo em português; ficha oficial editável com seu PDF local.
+
+SALVAR E COMPARTILHAR
+O salvamento é automático. No Windows portátil, a pasta dados contém
+fichas.json e sua cópia anterior fichas.json.bak. Ao mudar de computador,
+feche o programa e copie toda a pasta do programa, incluindo dados.
+Se a pasta do executável não permitir gravação, o programa usa a pasta
+local de dados do Windows; prefira extrair em Documentos ou outra pasta
+de sua propriedade para manter o uso portátil.
+
+Compartilhar ficha gera um arquivo .dav20.json. A outra pessoa abre
+seu programa e escolhe Importar. Importação cria uma cópia, sem
+substituir personagens. Biblioteca → Exportar backup reúne todas as
+fichas. Faça backups exportados; a cópia anterior automática não
+substitui um backup externo. Fichas de 3D&T não são importadas aqui.
+
+PDFs
+O botão PDF gera a ficha completa em português. Biblioteca oferece a
+ficha oficial de quatro páginas, mantendo os campos editáveis. A ficha
+oficial tem espaços fixos e exibe avisos quando uma ficha extensa não
+cabe; use o PDF completo para conservar todos os detalhes. A fonte
+original também tem limitações de caracteres. Retratos ficam no PDF
+completo; os campos de imagem originais permanecem na ficha oficial.
+
+REGRAS E ACERVO
+O repositório público não inclui PDFs nem textos integrais de livros.
+Configure seu acervo pessoal conforme README.md para habilitar consulta
+e preenchimento da ficha oficial. As referências usam Dark Ages V20. Página indica
+a posição no PDF, começando em 1, que pode diferir da numeração impressa.
+O catálogo contém nomes canônicos e trechos nos idiomas dos livros;
+a interface e o PDF completo estão em português. O Companion fornecido
+é uma tradução automática e 99 de suas páginas foram recuperadas por
+OCR. O botão Consultar fonte abre o original para conferir o contexto.
+
+Regras gerais e Disciplinas físicas passivas são calculadas. Efeitos
+narrativos e exceções dos demais poderes dependem do Narrador; registre
+seus modificadores e condições. REGRAS.md descreve as regras executadas
+pelo programa; CATALOGO.md descreve cobertura e revisão das fontes.
+Uma rolagem aceita até 100.000 dados. Esse limite de processamento não
+altera ou corta o valor salvo dos modificadores.
+
+Projeto pessoal, não oficial. Esta edição usa dados próprios e é
+separada da Forja 3D&T. VALIDACAO.md descreve os testes realizados.

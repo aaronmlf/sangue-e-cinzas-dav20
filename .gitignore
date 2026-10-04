@@ -1,0 +1,27 @@
+# Dependencies, local runtimes, distributions and profiles
+node_modules/
+app/node_modules/
+tmp/
+dist/
+__pycache__/
+*.pyc
+*.log
+.dados/
+dados/
+*.dav20.json
+.env
+.env.*
+
+# User-provided books and every generated full-book text/index
+*.pdf
+app/livros/*
+!app/livros/README.md
+referencias/
+app/data/catalog.js
+app/data/catalog.json
+app/data/library-local.json
+app/data/coverage.json
+
+# Character backups copied accidentally to the repository root
+fichas.json*
+*.3det.json

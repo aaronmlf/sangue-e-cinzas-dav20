@@ -1,0 +1,28 @@
+{
+  "name": "sangue-e-cinzas-dav20",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Criador offline de fichas para Vampiro: Idade das Trevas V20",
+  "scripts": {
+    "start": "electron app",
+    "test": "node --test tests/engine.test.cjs tests/print.test.cjs tests/bootstrap.test.cjs",
+    "build:windows": "python3 scripts/build_windows.py",
+    "build:linux": "python3 scripts/build_linux.py",
+    "test:official": "node --test tests/official.test.cjs",
+    "test:ui": "node tests/smoke.cjs",
+    "library:import": "python3 scripts/import_library.py",
+    "runtime:windows": "python3 scripts/download_runtime.py windows",
+    "runtime:linux": "python3 scripts/download_runtime.py linux"
+  },
+  "devDependencies": {
+    "electron": "43.7.7",
+    "playwright": "1.58.2"
+  },
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "dependencies": {
+    "pdf-lib": "1.17.1"
+  }
+}

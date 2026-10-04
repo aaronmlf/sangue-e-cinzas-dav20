@@ -1,0 +1,1 @@
+Os PDFs não acompanham o repositório público. Adicione os seus livros localmente com `npm run library:import -- "/pasta/dos/pdfs"`. Veja os detalhes no README principal. Todo PDF nesta pasta é ignorado pelo Git.

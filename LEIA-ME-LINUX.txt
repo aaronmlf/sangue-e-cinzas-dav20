@@ -1,0 +1,92 @@
+EDIÇÃO DE CÓDIGO-FONTE PÚBLICO
+Os livros não acompanham esta edição. Consulte README.md para preparar
+sua biblioteca local antes de usar a pesquisa ou a ficha oficial.
+
+SANGUE & CINZAS — VAMPIRO: IDADE DAS TREVAS V20
+Versão 1.0.0 • Linux x64 • Portátil e offline
+
+COMO ABRIR
+1. Extraia TODO o arquivo .tar.gz para uma pasta pessoal em um disco
+   Linux, onde você tenha permissão para gravar e executar arquivos.
+2. Abra Iniciar-Sangue-e-Cinzas.sh. Se o gerenciador de arquivos pedir,
+   escolha Executar; alguns ambientes mostram o texto do script.
+   Nesse caso, abra um terminal nessa pasta e execute:
+   ./Iniciar-Sangue-e-Cinzas.sh
+3. Mantenha resources, locales, dados e os demais arquivos juntos.
+   Não precisa instalar Node, Python ou Electron.
+
+COMPATIBILIDADE
+Requer Linux desktop de 64 bits para processadores Intel/AMD, sessão
+gráfica e bibliotecas usuais de GTK 3, NSS, áudio ALSA, GBM e X11.
+Essas bibliotecas normalmente acompanham uma
+instalação desktop. Sistemas mínimos podem precisar dos pacotes
+correspondentes da própria distribuição. ARM não está incluído.
+A edição foi testada em Manjaro Linux x64; outras distribuições
+compatíveis precisam fornecer essas bibliotecas e suporte ao sandbox.
+
+O lançador mantém o isolamento de segurança do Chromium. O sistema
+deve permitir namespaces de usuário para aplicativos desktop. Se
+aparecer erro de sandbox, consulte a administração ou a documentação
+da sua distribuição. O programa não altera configurações de segurança
+e não precisa ser executado como administrador.
+
+Partições montadas com a opção noexec não permitem iniciar o programa.
+Nesse caso, extraia para outra pasta pessoal em um disco Linux. O
+pacote já conserva as permissões de execução. Se o gerenciador de
+arquivos as alterar, marque o lançador e sangue-e-cinzas como
+executáveis nas propriedades desses dois arquivos.
+
+SUA PRIMEIRA FICHA
+Escolha Identidade e clã. Distribua Atributos (7/5/3), Habilidades
+(13/9/5), Disciplinas (4), Antecedentes (5) e Virtudes (7).
+Em Criação e evolução, confira os avisos e conclua a distribuição
+inicial. Essa base fica separada das compras com os 15 pontos de bônus.
+Depois, comece a crônica para comprar aumentos com experiência.
+Os valores podem ser digitados; os círculos são atalhos. Avisos das
+regras não apagam características acima dos limites da mesa.
+
+SALVAR E COMPARTILHAR
+O salvamento é automático. A pasta dados, junto do executável, contém
+fichas.json e sua cópia anterior fichas.json.bak. Para levar o programa
+e suas fichas a outro computador Linux, feche o programa e copie toda
+a pasta, incluindo dados. Se ela não permitir gravação, o programa usa
+a pasta de dados do usuário configurada pelo ambiente Linux. Prefira
+uma pasta pessoal gravável para manter o uso portátil.
+
+Compartilhar ficha gera .dav20.json. A outra pessoa escolhe Importar
+no programa, no Linux ou Windows. A importação cria uma cópia e não
+substitui personagens. Biblioteca → Exportar backup reúne as fichas.
+Faça backups exportados; a cópia anterior automática não substitui um
+backup externo. Fichas de 3D&T não são importadas aqui.
+
+O QUE O PROGRAMA FAZ
+• Vários personagens, retrato, clãs/linhagens, Caminhos e especialidades.
+• Disciplinas, Antecedentes, Qualidades, Defeitos, trilhas e rituais.
+• Auditoria de criação, bônus, concessões e compras com experiência.
+• Geração, sangue, vontade, vitalidade, cura, armadura e iniciativa.
+• Dados D10, dificuldade, especialidade, vontade e registro de rolagens.
+• Modificadores grandes, positivos/negativos e efeitos de cena/turnos.
+• Equipamentos, diário e 30 alterações para desfazer/refazer.
+• Pesquisa nos livros depois de configurar seu próprio acervo local.
+• PDF completo em português; ficha oficial editável com seu PDF local.
+
+PDFs E ACERVO
+O botão PDF gera a ficha completa em português. Biblioteca oferece a
+ficha oficial de quatro páginas com campos editáveis. Ela tem espaços
+fixos e mostra avisos quando uma ficha extensa não cabe; use o PDF
+completo para conservar todos os detalhes. A fonte original também
+tem limitações de caracteres. Retratos ficam no PDF completo.
+
+Página indica a posição no PDF, começando em 1, que pode diferir da
+numeração impressa. O catálogo traz nomes canônicos e trechos nos
+idiomas dos livros. O Companion é uma tradução automática; 99 de suas
+páginas foram recuperadas por OCR. Consultar fonte abre o original.
+
+Regras gerais e Disciplinas físicas passivas são calculadas. Efeitos
+narrativos e exceções dos demais poderes dependem do Narrador. Registre
+seus modificadores e condições. REGRAS.md descreve as regras executadas;
+CATALOGO.md descreve a cobertura das fontes. Uma rolagem aceita até
+100.000 dados; esse limite não corta o valor salvo dos modificadores.
+
+Projeto pessoal, não oficial, separado da Forja 3D&T.
+VALIDACAO-LINUX.md descreve as verificações desta distribuição.

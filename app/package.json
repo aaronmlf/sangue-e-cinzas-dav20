@@ -1,0 +1,8 @@
+{
+  "name": "sangue-e-cinzas-dav20",
+  "version": "1.0.0",
+  "description": "Criador offline de fichas para Vampiro: Idade das Trevas V20",
+  "main": "main.cjs",
+  "author": "Projeto pessoal",
+  "license": "UNLICENSED"
+}
